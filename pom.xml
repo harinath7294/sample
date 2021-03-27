@@ -8,8 +8,10 @@
     <groupId>com.yourorganization</groupId>
     <!-- The name of this project (actually, the name of the artifact, which is the thing that this project produces. A jar in this case.) -->
     <artifactId>javaparser-maven-sample</artifactId>
+         <packaging>jar</packaging>
     <!-- The version of this project. SNAPSHOT means "we're still working on it" -->
     <version>1.0-SNAPSHOT</version>
+          <name>javaparser-maven-sample</name>
 
     <properties>
         <!-- Tell Maven we want to use Java 8 -->
